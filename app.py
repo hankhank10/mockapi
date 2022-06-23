@@ -5,6 +5,11 @@ import random
 app = Flask(__name__)
 
 
+@app.route("/index")
+def index():
+    return "This is index.html"
+
+
 @app.route("/hello_world")
 def hello_world():
     return "Hello, World!"
