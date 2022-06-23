@@ -18,7 +18,7 @@ def hello_world():
 
 
 @app.route("/hello_world_html")
-def hello_world():
+def hello_world_html():
     return '<p style="background-color:powderblue;">Hello, World!</p>'
 
 
