@@ -17,6 +17,11 @@ def hello_world():
     return "Hello, World!"
 
 
+@app.route("/hello_world_html")
+def hello_world():
+    return '<p style="background-color:powderblue;">Hello, World!</p>'
+
+
 @app.route("/some_json")
 def some_json():
 
