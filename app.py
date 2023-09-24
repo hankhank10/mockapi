@@ -7,9 +7,10 @@ import random
 app = Flask(__name__)
 CORS(app)
 
+@app.route("/")
 @app.route("/index")
 def index():
-    return "This is index.html"
+    return "This is index"
 
 
 @app.route("/hello_world")
